@@ -4,18 +4,7 @@ This is a custom Role-Based Access Control (RBAC) System to manage user roles an
 permissions dynamically. Have used the Django framework and its inbuilt SQL to 
 implement it.
 
+The Objectives are simple
 
-How to run 
-
-Run Migrations
-python3 manage.py makemigrations rbac_core  
-python3 manage.py migrate
-
-To run data initialization of roles and permissions
-
-python3 manage.py create_initial_permissions 
-python3 manage.py create_default_roles   
-
-Run the Server
-
-python3 manage.py runserver 
+Every user can be assigned a predefined role which has a set of permissions 
+according to which the access to resources is decided.
